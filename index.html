@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <title>Page Title</title>
+	    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	</head>
+	<body>
+
+		<section id="nav-panel">
+			<header>
+				<img src="http://placehold.it/350x150" />
+				<div class="search-box">
+					<input type="text" name="">
+				</div>
+			</header>
+			<nav>
+				<a href="#">Nav Link</a>
+				<a href="#">Nav Link</a>
+				<a href="#">Nav Link</a>
+				<a href="#">Nav Link</a>
+				<a href="#">Nav Link</a>
+				<a href="#">Nav Link</a>
+			</nav>
+			
+		</section>
+
+		<main>
+
+			<section id="header-panel">
+				<h2 id="panel-toggle">Username</h2>
+
+			</section>
+
+			<section id="content-panel">
+				
+				<h1>Content</h1>
+
+				<p>Lorem ipsum dolor sit amet, ut everti tincidunt sit, dolor tacimates persecuti an eum. Ei erat iusto vis, quo ea alii vidit soleat. Mel cu fastidii convenire sententiae, eos quod dolore rationibus no. Quas atqui accumsan ei vix, te mel cibo facilisis.</p>
+
+				<p>Electram tractatos definitionem eum ad, wisi inciderint pro an, usu ex omnis expetenda. Pro cibo maiestatis accommodare at. Nobis numquam ceteros his cu. In munere suscipit argumentum mel, ea semper corpora consectetuer vis. Exerci persius adolescens vis ea, labores perfecto referrentur id pri, per nostro discere deterruisset id. An per accusata urbanitas, duo id tota essent omittam, legendos consequuntur ut has.</p>
+
+				<p>Ei tation erroribus vim, eu mea error animal. Has vocibus admodum et. At eum quaestio appellantur liberavisse, duo te lobortis consequat. Erroribus accusamus theophrastus vix ut, quo ex utroque voluptatum. Primis reprehendunt ea mei.</p>
+
+				<p>Te facilisi expetenda intellegebat vim, accusam antiopam ex mei. Cetero oblique delicata ut qui, pri ea tale ludus tamquam. Insolens vituperata duo id, quo ad graeco concludaturque. Ei ius labores vivendo fabellas. In causae consectetuer est, putant aperiri per in.</p>
+
+			</section>
+
+		</main>
+
+	    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	    <script type="text/javascript">
+	    	$('#panel-toggle').click(function(){
+	    		$('main').toggleClass('open');
+			  $('#nav-panel').toggleClass('open');
+			  
+			  console.log('toggle nav');
+			});
+
+	    </script>
+	
+	</body>
+</html>
