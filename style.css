@@ -64,7 +64,7 @@ main.open {
 }
 #content-panel {
 	background-color: pink;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 
@@ -91,5 +91,17 @@ section.widget {
 }
 
 @media only screen and (max-device-width: 414px){
-/* Styles */
+	#nav-panel { 
+		width: 90%;
+		margin-left: -90%;
+	}
+	section.widget {
+		float: none;
+		width: 100%;
+	}
+	main.open {
+		margin-left: 0;
+		width: 100%;
+	}
+
 }
