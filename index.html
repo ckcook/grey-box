@@ -8,11 +8,12 @@
 	    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	</head>
-	<body>
+	<body class="group">
 
 		<section id="nav-panel">
+			<span id="panel-toggle">X</span>
 			<header>
-				<img src="http://placehold.it/350x150" />
+				<img src="http://placehold.it/350x150" width=350 height=150/>
 				<div class="search-box">
 					<input type="text" name="">
 				</div>
@@ -31,21 +32,48 @@
 		<main>
 
 			<section id="header-panel">
-				<h2 id="panel-toggle">Username</h2>
+				
+				<h2 class="username">Username</h2>
 
 			</section>
 
-			<section id="content-panel">
-				
-				<h1>Content</h1>
+			<section id="content-panel" class="group">
 
-				<p>Lorem ipsum dolor sit amet, ut everti tincidunt sit, dolor tacimates persecuti an eum. Ei erat iusto vis, quo ea alii vidit soleat. Mel cu fastidii convenire sententiae, eos quod dolore rationibus no. Quas atqui accumsan ei vix, te mel cibo facilisis.</p>
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
 
-				<p>Electram tractatos definitionem eum ad, wisi inciderint pro an, usu ex omnis expetenda. Pro cibo maiestatis accommodare at. Nobis numquam ceteros his cu. In munere suscipit argumentum mel, ea semper corpora consectetuer vis. Exerci persius adolescens vis ea, labores perfecto referrentur id pri, per nostro discere deterruisset id. An per accusata urbanitas, duo id tota essent omittam, legendos consequuntur ut has.</p>
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
 
-				<p>Ei tation erroribus vim, eu mea error animal. Has vocibus admodum et. At eum quaestio appellantur liberavisse, duo te lobortis consequat. Erroribus accusamus theophrastus vix ut, quo ex utroque voluptatum. Primis reprehendunt ea mei.</p>
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
 
-				<p>Te facilisi expetenda intellegebat vim, accusam antiopam ex mei. Cetero oblique delicata ut qui, pri ea tale ludus tamquam. Insolens vituperata duo id, quo ad graeco concludaturque. Ei ius labores vivendo fabellas. In causae consectetuer est, putant aperiri per in.</p>
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
+
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
+
+				<section class="widget">
+					<div class="widget-content">
+					widget content
+					</div>
+				</section>
 
 			</section>
 
@@ -56,9 +84,8 @@
 	    <script type="text/javascript">
 	    	$('#panel-toggle').click(function(){
 	    		$('main').toggleClass('open');
-			  $('#nav-panel').toggleClass('open');
-			  
-			  console.log('toggle nav');
+				$('#nav-panel').toggleClass('open');
+			    console.log('toggle nav');
 			});
 
 	    </script>
